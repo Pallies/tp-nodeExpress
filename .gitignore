@@ -1,2 +1,5 @@
+# VARIABLES ENV
+.env
+# PACKAGES
 /node_modules
 package-lock.json
