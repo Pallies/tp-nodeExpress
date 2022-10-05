@@ -1,6 +1,7 @@
 import express from "express";
 import contactRoutes from "./source/routes/contact.route";
 import userRoutes from "./source/routes/user.route";
+import mockRoutes from "./source/routes/mock.route";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
@@ -21,6 +22,7 @@ app.use(bodyParser.json());
 //  ROUTES
 contactRoutes(app);
 userRoutes(app);
+mockRoutes(app)
 
 app.use(express.static('photo'))
 
