@@ -1,0 +1,31 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "server node with express",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pallies/tp-nodeExpress.git"
+  },
+  "author": "yvan palliès",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pallies/tp-nodeExpress/issues"
+  },
+  "homepage": "https://github.com/Pallies/tp-nodeExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
