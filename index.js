@@ -1,5 +1,6 @@
 import express from "express";
-import routes from "./source/routes/crm.route";
+import contactRoutes from "./source/routes/contact.route";
+import userRoutes from "./source/routes/user.route";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import * as dotenv from "dotenv";
@@ -18,8 +19,9 @@ mongoose.connect(`${process.env.MONGODB_ADDON_URI}`, {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 //  ROUTES
-routes(app);
-// photo(app)
+contactRoutes(app);
+userRoutes(app);
+
 app.use(express.static('photo'))
 
 app.get("/", (req, res) =>
