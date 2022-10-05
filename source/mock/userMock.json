@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "633df83766d4a82a819bdc6b",
+        "name": "Paul",
+        "lastname": "Lassly",
+        "age": 35,
+        "job": "dev",
+        "tel": "0336485915",
+        "__v": 0
+    },
+    {
+        "_id": "633df8fcee3d3eecfb21ea53",
+        "name": "Valentino",
+        "lastname": "Anna",
+        "age": 23,
+        "job": "Secretary",
+        "tel": "0123456789",
+        "__v": 0
+    },
+    {
+        "_id": "633df91aee3d3eecfb21ea55",
+        "name": "Dupont",
+        "lastname": "Maurice",
+        "age": 55,
+        "job": "Technical support",
+        "tel": "0123456789",
+        "__v": 0
+    },
+    {
+        "_id": "633df941ee3d3eecfb21ea57",
+        "name": "Barak",
+        "lastname": "Shaima",
+        "age": 40,
+        "job": "Financial assistant",
+        "tel": "0123456789",
+        "__v": 0
+    }
+]
