@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import {UserSchema} from "../models/user.model";
-import callbackHandler from "./callback.controller";
 
 const UserModel = mongoose.model("User", UserSchema);
 

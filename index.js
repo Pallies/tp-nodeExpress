@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 import * as dotenv from "dotenv";
 
 
-dotenv.config()
+dotenv.config() // portée en global (sans var ou const)
 const app = express();
 const PORT = 3000;
 //  création d'une Promise
