@@ -15,6 +15,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(`${process.env.MONGODB_ADDON_URI}`, {
   useNewUrlParser: true,
 });
+// permet de parser url et récupérer req.body
 // use fonction express
 // bodyParser convertisseur json
 app.use(bodyParser.urlencoded({ extended: true }));

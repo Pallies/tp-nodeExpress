@@ -13,6 +13,13 @@ export const addNewContact = (req, res) => {
       res.json(contact);
     }
   });
+  Contact.insertMany(req.body,(err, contact) => {
+    if (err) {
+      res.send(err);
+    } else {
+      res.json(contact);
+    }
+  })
 };
 export const getContacts = (req, res) => {
   Contact.find({}, (err, contact) => {
